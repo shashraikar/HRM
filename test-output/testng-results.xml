@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Version is matching]]>
+    </line>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64149" started-at="2018-11-17T18:49:31Z" finished-at="2018-11-17T18:50:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64149" started-at="2018-11-17T18:49:31Z" finished-at="2018-11-17T18:50:35Z">
+      <class name="scripts.VerifyActiTimeVersion">
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.VerifyActiTimeVersion@1d057a39]" name="OpenAppln" is-config="true" duration-ms="10194" started-at="2018-11-17T18:50:18Z" finished-at="2018-11-17T18:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppln -->
+        <test-method status="PASS" signature="testVerifyActiTimeVersion()[pri:0, instance:scripts.VerifyActiTimeVersion@1d057a39]" name="testVerifyActiTimeVersion" duration-ms="5874" started-at="2018-11-17T18:50:29Z" finished-at="2018-11-17T18:50:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+            <line>
+              <![CDATA[Version is matching]]>
+            </line>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyActiTimeVersion -->
+        <test-method status="PASS" signature="CloseAppln()[pri:0, instance:scripts.VerifyActiTimeVersion@1d057a39]" name="CloseAppln" is-config="true" duration-ms="767" started-at="2018-11-17T18:50:35Z" finished-at="2018-11-17T18:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAppln -->
+      </class> <!-- scripts.VerifyActiTimeVersion -->
+      <class name="scripts.ValidLoginLogout">
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.ValidLoginLogout@475530b9]" name="OpenAppln" is-config="true" duration-ms="8770" started-at="2018-11-17T18:50:03Z" finished-at="2018-11-17T18:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppln -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:scripts.ValidLoginLogout@475530b9]" name="testValidLoginLogout" duration-ms="5644" started-at="2018-11-17T18:50:12Z" finished-at="2018-11-17T18:50:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="CloseAppln()[pri:0, instance:scripts.ValidLoginLogout@475530b9]" name="CloseAppln" is-config="true" duration-ms="691" started-at="2018-11-17T18:50:18Z" finished-at="2018-11-17T18:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAppln -->
+      </class> <!-- scripts.ValidLoginLogout -->
+      <class name="scripts.InvalidLogin">
+        <test-method status="PASS" signature="OpenAppln()[pri:0, instance:scripts.InvalidLogin@2b98378d]" name="OpenAppln" is-config="true" duration-ms="26370" started-at="2018-11-17T18:49:31Z" finished-at="2018-11-17T18:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAppln -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:scripts.InvalidLogin@2b98378d]" name="testInvalidLogin" duration-ms="4505" started-at="2018-11-17T18:49:58Z" finished-at="2018-11-17T18:50:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="CloseAppln()[pri:0, instance:scripts.InvalidLogin@2b98378d]" name="CloseAppln" is-config="true" duration-ms="1265" started-at="2018-11-17T18:50:02Z" finished-at="2018-11-17T18:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAppln -->
+      </class> <!-- scripts.InvalidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
